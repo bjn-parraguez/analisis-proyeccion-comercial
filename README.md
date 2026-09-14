@@ -30,7 +30,8 @@ Estructura del repositorio:
 - “ingesta_datos_api_banco_central_de_chile.py”: Extracción de datos económicos desde la API del Banco Central de Chile.
 
 Nota de Arquitectura y confidencialidad:
-El repositorio contiene la etapa de modelamiento/aplicación, no obstante, por motivos de seguridad, modularidad y políticas de confidencialidad, los módulos de ingesta de API externa y el pipeline principal se mantienen desacoplados. Las credenciales y datos corporativos sensibles han sido omitidos. 
+El repositorio contiene únicamente la etapa de modelamiento, aplicación e integración funcional. Las etapas previas de limpieza, análisis exploratorio de datos (EDA), selección de variables y prueba de supuestos estadísticos se desarrollaron en entornos de experimentación durante la fase de investigación y desarrollo. 
+Por motivos de seguridad, modularidad y buenas prácticas, la arquitectura se presenta desacoplada en dos componentes independientes (ingesta de API externa y pipeline predictivo/interfaz). Asimismo, las credenciales y datos corporativos sensibles han sido omitidos. 
 
 Herramientas:
 
