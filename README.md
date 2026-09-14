@@ -42,5 +42,4 @@ Herramientas:
 
 Autor:
 Benjamín Parraguez |
-Master in Business Analytics - Universidad Adolfo Ibañez |
 Proyecto académico 
